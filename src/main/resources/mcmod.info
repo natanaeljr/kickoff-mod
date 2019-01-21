@@ -5,7 +5,7 @@
   "description": "Getting started with Forge Modding.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "github.com/natanaeljr",
+  "url": "github.com/natanaeljr/kickoff-mod",
   "updateUrl": "",
   "authorList": ["Natanael J. Rabello"],
   "credits": "The Forge and FML guys, for making this modding infrastructure",
