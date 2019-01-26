@@ -1,6 +1,7 @@
 package natanaeljr.kickoff.init;
 
 import natanaeljr.kickoff.KickOffMod;
+import natanaeljr.kickoff.block.BlockBox;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -27,9 +28,9 @@ public class Blocks
 
     /* Define the blocks */
     static {
-        BOX = new Block(Material.WOOD).setRegistryName(KickOffMod.MODID, "box")
-                                      .setUnlocalizedName(KickOffMod.MODID + "." + "box")
-                                      .setCreativeTab(CreativeTabs.DECORATIONS);
+        BOX = new BlockBox(Material.WOOD).setRegistryName(KickOffMod.MODID, "box")
+                                         .setUnlocalizedName(KickOffMod.MODID + "." + "box")
+                                         .setCreativeTab(CreativeTabs.DECORATIONS);
     }
 
     /**
