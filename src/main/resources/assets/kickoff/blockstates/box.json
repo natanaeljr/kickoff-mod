@@ -1,5 +1,8 @@
-{
+{B
     "variants": {
-        "normal": { "model": "kickoff:box" }
+        "facing=north": { "model": "kickoff:box" },
+        "facing=south": { "model": "kickoff:box", "y": 180 },
+        "facing=west": { "model": "kickoff:box", "y": 270 },
+        "facing=east": { "model": "kickoff:box", "y": 90 }
     }
 }
