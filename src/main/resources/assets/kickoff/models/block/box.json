@@ -1,6 +1,12 @@
 {
-    "parent": "block/cube_all",
+    "parent": "block/cube_directional",
     "textures": {
-        "all": "kickoff:blocks/box_bottom"
+        "particle": "kickoff:blocks/box_side1",
+        "down": "kickoff:blocks/box_bottom",
+        "up": "kickoff:blocks/box_top",
+        "north": "kickoff:blocks/box_side2",
+        "east": "kickoff:blocks/box_side1",
+        "south": "kickoff:blocks/box_side2",
+        "west": "kickoff:blocks/box_side1"
     }
 }
