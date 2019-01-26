@@ -1,0 +1,9 @@
+# ITEMS
+#item.examplemod.example_item.name=Example Item Name
+
+# BLOCKS
+#tile.examplemod.example_block.name=Example Block Name
+tile.kickoff.box.name=Box
+
+# COMMANDS
+#commands.examplemod.examplecommand.usage=/example <value>
